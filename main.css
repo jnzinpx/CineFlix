@@ -136,7 +136,7 @@ iframe {
     display: block;
     margin-top: -180px;
     width: 100%; /* Defina a largura como 100% para se ajustar à largura do contêiner pai */
-    height: 100vh; /* Isso fará o vídeo ocupar toda a altura da página */
+    height: 90vh; /* Isso fará o vídeo ocupar toda a altura da página */
     object-fit: cover;
     pointer-events: none;
 }
