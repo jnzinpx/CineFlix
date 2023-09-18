@@ -115,7 +115,7 @@ body {
     .imagem-sobre-video {
         position: absolute;
         width: 150px;
-        top: 100px;
+        top: 310px;
         left: 15px;
         z-index: 1;
     }
@@ -124,10 +124,9 @@ body {
 
 iframe {
     border: none;
-    display: flex;
-    margin-top: -5px;
+    display: block;
     width: 100%; /* Defina a largura como 100% para se ajustar à largura do contêiner pai */
-    height: 40vh; /* Isso fará o vídeo ocupar toda a altura da página */
+    height: 100vh; /* Isso fará o vídeo ocupar toda a altura da página */
     object-fit: cover;
     pointer-events: none;
 }
