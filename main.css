@@ -124,7 +124,8 @@ body {
 
 iframe {
     border: none;
-    display: block;
+    display: flex;
+    margin-top: -100px;
     width: 100%; /* Defina a largura como 100% para se ajustar à largura do contêiner pai */
     height: 40vh; /* Isso fará o vídeo ocupar toda a altura da página */
     object-fit: cover;
