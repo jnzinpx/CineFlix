@@ -1,0 +1,213 @@
+body {
+    background-color: rgba(22, 21, 22, 0.979);
+    margin: 0;
+    padding: 0;
+}
+
+.faixa {
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 78px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 2;
+}
+
+
+
+.logo img {
+        height: 27px; 
+    }
+    .guia{
+        display: flex;
+        align-items: center;
+        margin-right: 450px;
+    }
+    
+    .guia ul {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    }
+    
+    .guia li {
+        color: aliceblue;
+        font-size: 15px;
+        
+    }
+    
+    .funcoes {
+        display: flex;
+        align-items: center; 
+        justify-content: flex-end;
+        margin-right: 50px; 
+        gap: 38px;  
+        
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+    
+        .faixa {
+            background-color: rgba(0, 0, 0, 0.377);
+            height: 78px;
+            width: 100%;
+            position: fixed;
+            display: flex;
+            margin-top: -11px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            z-index: 2;
+            
+        }
+
+            .logo img {
+                height: 9px; 
+            }
+            .guia{
+                display: flex;
+                align-items: center;
+                margin-right: 900px;
+            }
+            
+            .guia ul {
+                display: flex;
+                list-style-type: none;
+                gap: 20px;
+                font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            }
+            
+            .guia li {
+                color: aliceblue;
+                font-size: 10px;
+                
+            }
+            
+            .funcoes {
+                display: flex;
+                align-items: center; 
+                justify-content: flex-end;
+                margin-right: 50px; 
+                gap: 38px;  
+                
+            }   
+        
+        }
+    
+
+.imagem-sobre-video {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    z-index: 1;
+}
+@media only screen and (max-width: 600px) {
+
+    .imagem-sobre-video {
+        position: absolute;
+        width: 150px;
+        top: 310px;
+        left: 15px;
+        z-index: 1;
+    }
+} 
+
+
+iframe {
+    border: none;
+    display: block;
+    width: 100%; /* Defina a largura como 100% para se ajustar à largura do contêiner pai */
+    height: 100vh; /* Isso fará o vídeo ocupar toda a altura da página */
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+
+
+.pp {
+    display: grid;
+    align-items: center;
+    gap: 150px;
+    color: aliceblue;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+
+.cards  {
+    display: flex;
+    margin-left: 40px;
+    margin-top: -215px;
+    flex-wrap: wrap; 
+    gap: 75px;
+    justify-content: flex-start; 
+}
+
+.cards img {
+  display: flex;
+  height: 135px;
+  width: 240px;
+}
+
+.fl1{
+    display: flex;
+    gap: 20px;
+}
+
+.fl2{
+    display: flex;
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+
+.cards  {
+    display: flex;
+    margin-left: 4px;
+    margin-top: -190px;
+    flex-wrap: wrap; 
+    gap: 75px;
+    justify-content: flex-start; 
+}
+
+.cards img {
+  display: flex;
+  height: 100px;
+  width: 56px;
+}
+
+.fl1{
+    display: flex;
+    gap: 20px;
+}
+
+.fl2{
+    display: flex;
+    gap: 20px;
+}
+
+.pp {
+    display: grid;
+    align-items: center;
+    gap: 120px;
+    color: aliceblue;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+}

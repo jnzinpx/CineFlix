@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+</head>
+<body>
+    
+    <div class="faixa">
+        <div class="logo">
+            <img src="CINESEMDUFO.png" alt="">
+        </div>
+
+        <div class="guia">
+            <ul>
+                <li>Início</li>
+                <li>Séries</li>
+                <li>Filmes</li>
+                <li>Bombado</li>
+                <li>Minha<span> Lista</span></li>
+                <li>Navegar<span> por</span> <span>Idiomas</span></li>        
+            </ul>
+        </div>
+
+        <div class="funcoes">
+            <img src="lupa.png" alt="">
+            <img src="sino.png" alt="">
+            <img src="icons8-engrenagem-16.png" alt="">
+        </div>
+    </div>
+
+    <div class="videocard">
+        <div id="player"></div>
+        <a href="https://mixdrop.to/e/pkwg9z1os04jgw">
+            <img src="snp2.png" alt="Imagem Sobre o Vídeo" class="imagem-sobre-video">
+        </a>
+    </div>
+
+    <div class="pp">
+        <p>Filmes em Alta</p>
+        <p>Séries em Alta</p>
+    </div>
+
+    <div class="cards">
+        <div class="fl1">
+            <img src="./filmes/Barbie.jpg" alt="">
+            <img src="./filmes/Besouro-azul.jpg" alt="">
+            <img src="./filmes/Megatubarap-2.jpg" alt="">
+            <img src="./filmes/Barbie.jpg" alt="">
+            <img src="./filmes/Barbie.jpg" alt="">
+        </div>
+
+        <div class="fl2">
+            <img src="./filmes/Barbie.jpg" alt="">
+            <img src="./filmes/Besouro-azul.jpg" alt="">
+            <img src="./filmes/Megatubarap-2.jpg" alt="">
+            <img src="./filmes/Barbie.jpg" alt="">
+            <img src="./filmes/Barbie.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        var player;
+        function onYouTubeIframeAPIReady() {
+            var videos = [
+                "WvAdCYosyVo",
+                "TGdek7l9pis",
+                "vW7AX64EQDM",
+                // Add more YouTube video IDs as needed
+            ];
+            var randomIndex = Math.floor(Math.random() * videos.length);
+            var videoId = videos[randomIndex];
+            
+            player = new YT.Player('player', {
+                height: '315',
+                width: '560',
+                videoId: videoId,
+                playerVars: {
+                    'autoplay': 1,
+                    'controls': 0,    // Hide video controls
+                    'rel': 0,         // Hide related videos at the end
+                    'showinfo': 0,    // Hide video information
+                    'mute': 1,
+                    'loop': 1,
+                    'border': 0,      // Remove black border
+                    'disablekb': 1    // Disable keyboard interaction
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+    </script>
+</body>
+</html>
