@@ -173,7 +173,7 @@ h1 {
     width: 100%;
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1200px) {
    
     .faixa{
       display: flex;
