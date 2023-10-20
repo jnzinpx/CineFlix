@@ -60,11 +60,11 @@ li {
     display: flex;
     gap: 100px;
     margin-top: 50px;
-    margin-left: 230px;
+    margin-left: 60px;
 }
 .btcard{
     display: flex;
-    margin-left: 255px;
+    margin-left: 80px;
     gap: 163px;
     margin-top: 10px;
 }
