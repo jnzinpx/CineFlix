@@ -22,7 +22,7 @@ body {
 nav {
     display: flex;
     gap: 80px;
-    margin-left: 700px;
+    margin-left: 600px;
     align-items: center;
 }
 
@@ -58,14 +58,14 @@ li {
 
 .cards{
     display: flex;
-    gap: 100px;
+    gap: 76px;
     margin-top: 50px;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 .btcard{
     display: flex;
-    margin-left: 80px;
-    gap: 163px;
+    margin-left: 50px;
+    gap: 140px;
     margin-top: 10px;
 }
 
