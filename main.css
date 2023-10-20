@@ -187,12 +187,12 @@ h1 {
 
     nav{
       display: flex;
-      margin-left: -100px;
+      margin-left: -70px;
       gap: 2px;
     }
 
     ul ,li{
-      font-size: 10px;
+      font-size: 11px;
 
     }
 
