@@ -173,54 +173,7 @@ h1 {
     width: 100%;
   }
 
-  @media only screen and (max-width: 480px) {
-   
-    .faixa{
-      display: flex;
-
-    }
-
-    .logo img{
-      display: flex;
-      margin-left: -110px;
-    }
-
-    nav{
-      display: flex;
-      margin-left: -90px;
-      gap: 2px;
-    }
-
-    ul ,li{
-      font-size: 11px;
-
-    }
-
-    .cards{
-      display: flex;
-      margin-left: 10px;
-      gap: 27px;
- 
-    }
-
-    .cards img{
-      display: flex;
-      height: 100px;
-    }
-
-    .btcard{
-      display: flex;
-      margin-left: 5px;
-      gap: 22px;
-    }
-
-    .crimg2{
-      display: flex;
-      height: 80px;
-    }
-
-
-  }
+  
 
 
 
